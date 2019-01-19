@@ -1,0 +1,148 @@
+%
+% The first command in your LaTeX source must be the \documentclass command.
+\documentclass[sigplan,screen]{acmart}
+
+%
+% defining the \BibTeX command - from Oren Patashnik's original BibTeX documentation.
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08emT\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+    
+% Rights management information. 
+% This information is sent to you when you complete the rights form.
+% These commands have SAMPLE values in them; it is your responsibility as an author to replace
+% the commands and values with those provided to you when you complete the rights form.
+%
+% These commands are for a PROCEEDINGS abstract or paper.
+\copyrightyear{2018}
+\acmYear{2018}
+\setcopyright{acmlicensed}
+\acmConference[Woodstock '18]{Woodstock '18: ACM Symposium on Neural Gaze Detection}{June 03--05, 2018}{Woodstock, NY}
+\acmBooktitle{Woodstock '18: ACM Symposium on Neural Gaze Detection, June 03--05, 2018, Woodstock, NY}
+\acmPrice{15.00}
+\acmDOI{10.1145/1122445.1122456}
+\acmISBN{978-1-4503-9999-9/18/06}
+\usepackage[compact]{titlesec}
+\titlespacing{\section}{1pt}{*1}{*1}
+\titlespacing{\subsection}{0.2pt}{*0.00}{*0}
+\titlespacing{\subsubsection}{0pt}{*0}{*0}
+%
+% These commands are for a JOURNAL article.
+%\setcopyright{acmcopyright}
+%\acmJournal{TOG}
+%\acmYear{2018}\acmVolume{37}\acmNumber{4}\acmArticle{111}\acmMonth{8}
+%\acmDOI{10.1145/1122445.1122456}
+
+%
+% Submission ID. 
+% Use this when submitting an article to a sponsored event. You'll receive a unique submission ID from the organizers
+% of the event, and this ID should be used as the parameter to this command.
+%\acmSubmissionID{123-A56-BU3}
+
+%
+% The majority of ACM publications use numbered citations and references. If you are preparing content for an event
+% sponsored by ACM SIGGRAPH, you must use the "author year" style of citations and references. Uncommenting
+% the next command will enable that style.
+%\citestyle{acmauthoryear}
+
+%
+% end of the preamble, start of the body of the document source.
+\begin{document}
+
+%
+% The "title" command has an optional parameter, allowing the author to define a "short title" to be used in page headers.
+\title{Principles of Distributed Agile Development}
+
+%
+% The "author" command and its associated commands are used to define the authors and their affiliations.
+% Of note is the shared affiliation of the first two authors, and the "authornote" and "authornotemark" commands
+% used to denote shared contribution to the research.
+
+\author{Aditya Samant}
+\authornote{Both authors contributed equally to this research.}
+\email{ansamant@asu.edu}
+\affiliation{\institution{Arizona State University}}
+
+\author{Sanay Devi}
+\email{svdevi@asu.edu}
+\affiliation{\institution{Arizona State University}}
+
+
+%
+% By default, the full list of authors will be used in the page headers. Often, this list is too long, and will overlap
+% other information printed in the page headers. This command allows the author to define a more concise list
+% of authors' names for this purpose.
+%\renewcommand{\shortauthors}{Trovato and Tobin, et al.}
+
+%
+% The abstract is a short summary of the work to be presented in the article.
+\begin{abstract}
+Agile teams embrace change, companies today have agile teams running the software development process. The communication within the particular team is of utmost importance however how the agile team communicates with other agile teams is one of the most critical parts of developing a software. Team effectiveness depends upon trust between the small agile teams not only within the company environment but also between teams across different geographical locations, time zones and cultures \cite{Siva13}. As John Maxwell said "Team work makes the dream work", this same principle applies for agile teams within an organization. 
+\end{abstract}
+
+
+%
+% Keywords. The author(s) should pick words that accurately describe the work being
+% presented. Separate the keywords with commas.
+\keywords{datasets, neural networks, gaze detection, text tagging}
+
+%
+% A "teaser" image appears between the author and affiliation information and the body 
+% of the document, and typically spans the page. 
+%\begin{teaserfigure}
+ % \includegraphics[width=\textwidth]{sampleteaser}
+ % \caption{Seattle Mariners at Spring Training, 2010.}
+ %\Description{Enjoying the baseball game from the third-base seats. Ichiro Suzuki preparing %to bat.}
+ % \label{fig:teaser}
+%\end{teaserfigure}
+
+%
+% This command processes the author and affiliation and title information and builds
+% the first part of the formatted document.
+\maketitle
+
+\section{Introduction}
+Agile teams are most effective in small projects (<50 people) who have "easy access to user and business experts" and are developing non-safety critical projects \cite{Dingsøyr14}. However, to meet requirements for large scale projects a globalized approach with outsourced teams is becoming common \cite{Jeff} where different teams must work together cohesively, flexibly and rapidly to deliver  a product that conforms to requirements specifications. In order for small team based agile practices to be effective in larger scale careful consideration must be given to the collaboration between teams and overall architecture. The following section 2.1 in Main side will cover the information about inter-team collaboration and section 2.2 will cover the importance of architectural design and architects in large-scale agile projects. 
+ 
+ 
+\section{Team Work}
+Most companies today consist of project teams ranging from two to several hundred people. These teams are further split into groups and each group is then responsible for developing a part of the system. The teams can be grouped into three categories viz. Isolated Scrum Teams, Distributed Scrum Of Scrums and Totally Integrated Scrums\cite{Jeff}. The isolated teams are usually on site teams and communication between them is usually by in-person meetings and "elevator meetings".The main communication problem occurs when the teams are distributed overseas since teams will portray differences in work styles, in the worst case outsourced teams may not use Scrum and be productive using the waterfall approach. This issue needs to be addressed, and all teams should in fact use the same methodology and stick to it.\\
+To form a group of professional individuals, the critical management task is to find a right balance of technical skills, experience and personalities. However, for a group to be actually productive and successful, the group should be cohesive and have team spirit\cite{ian}. Each group member should motivate others and should be loyal to each other. When problems arise or when sudden changes are required, the group as a whole and not individually should be able to adapt to the changes and overcome the problems.\\
+The idea of teamwork encapsulates a set of values that encourage listening and responding constructively to views expressed by others, giving others the benefit of the doubt,providing support, and recognizing the interests and achievements of others\cite{Moe}.
+The subsequent subsections highlight what is important when Agile Teams have to work together. 
+
+\subsection{Selecting Team Members}
+The main responsibility of the manager of a project is to create a cohesive group of teams and organize them so they can work together effectively. Companies due to budget constraints and lack of specific skills, outsource teams from different regions and managers do not have the complete say in the process of team selection. The problem arises when individuals are motivated by their own work and who have their own ideas about how technical problems should be solved. The manager should select teams and their members based on having similar complementary personalities and not rely solely on technical capabilities. Individuals who are interaction-oriented help facilitate communication within the team and are the key in holding the sanity of the entire team together\cite{ian}. \\
+When building a team, each participant's potential contribution to the process has to be evaluated.The ideal team member is a part of the team and identifies himself/herself with the team's goals, represents colleagues and has the time to participate through the entire process\cite{Gautam}.\\
+The key factors to select the team members are education,\\
+training, application domain, technology experience, communication ability, adaptability and problem solving skills\cite{ian}.
+\subsection{Team Organization}
+The way the team is organized affects decision making process, the way in which information is exchanged and the interaction between the development teams and the project stakeholders. For a big project with many interconnected teams a system architect is required who is usually a senior engineer. The critical decisions should be made by the system architect, project manager and all the team members. To make the most effective use of skilled programmers, the teams should be built around an individual chief highly skilled programmer. In the end, all these teams should work together in harmony to put forth a deliverable product. 
+\subsubsection{Plan Together}
+The teams should work together towards a common vision and road map, and  collaborate on ways to achieve the objectives. All Agile Teams should participate in a common approach to estimating work. This provides a meaningful way to help decision-making authorities guide the course of action based on economics.
+
+\subsection{Team Communication}
+Inter-team communication is one the six issues in distributed developmnent \cite{Jeff} since a failure to communicate properly with teammates will lead to production delays and conflicts in code implementation. Traditional agile methodology emphasizes self-management \cite{Dingsøyr14}, in a small team a team member is "cross-functional" and responsible for every phase in the agile development of the project. Due to the eclectic nature of modern large-scale projects the teams can be spread across time zones, cultures and languages. Many a times to make a project within the financial, quality and time constraints provided by the client, companies will outsource portions of the project to other companies.  Bj{\o}rnson et al. studied multiple large scale agile projects and determined that a shared mental model, closed-looped communication and trust are the essential mechanisms through which a project can succeed \cite{Bjørnson}. These mechanisms are interrelated and as such without effective communication mechanisms the building of a shared mental model and the fostering trust within teams is less likely to take place. Dings{\o}yr and Moe in 2014 determined that one way to foster a strong communication and understanding between different teams is by conducting inter team workshops, the goal of the workshop is to understand each other's work  culture and to develop a "shared team language"\cite{Dingsøyr14}. Another key means through which a shared team language and cohesion can increase is having the individuals have a "knowledge network" to be aware of fields and area beyond the scope of their team which will aide in the self-management of the individual teammates \cite{Dingsøyr14}.\\
+
+\subsection{Team Work and Scrum}
+Jeff Sutherland et al in 2007 conducted a case study and provided three different approaches to conduct Scrum in large scaled processes of which Isolated Scrum methodology was considered the least efficient since the teams had no mechanism for regular communications, the other methodologies were viewed favorably by Sutherland and folk and largely that was due to the presence of regularly scheduled Scrum of Scrums meetings, where a Chief Scrum Master and Chief Product Owner will discuss the overall shape of the project with the individual team leads \cite{Jeff}. The scrum of scrums meeting greatly increases the efficiency of the project and is considered by the authors to be the second best scrum approach for distributed development.However, it is still a bit inefficient when trying to create a proper architecture that is workable with parallel teamwork \cite{Dingsøyr14} The best approach for distributed development through scrum is the Integrated Scrum approach which incorporates the group scrum team approach of the Scrum of Scrums approach but further increases communications between the teams by dispersing team members through different sites. By doing so team members visiting the sites are exposed to a different culture and work environment and thus get a better understanding of the project as a whole.\\ 
+
+Another reason why the Integrated approach used in the case study was regarded the best was the strong planning and strong authority of the central command in the project. There were tools for collaborations, protocols for Configuration Management, Use Cases and Testing \cite{Jeff}. The strong central command added a bit of certainty to the interactions between the teams as everyone was following the same agreed upon procedures and using the same technology. This prevented needless conflicts arising from contradicting tech stacks or testing protocols as may have taken place in Isolated Scrum.\\
+
+\subsection{Visualizing and documenting the team's efforts throughout the process: Design and Architecture}
+
+
+
+
+
+%
+% The acknowledgments section is defined using the "acks" environment (and NOT an unnumbered section). This ensures
+% the proper identification of the section in the article metadata, and the consistent spelling of the heading.
+\begin{acks}
+
+\end{acks}
+
+%
+% The next two lines define the bibliography style to be used, and the bibliography file.
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{sample-base}
+
+\end{document}
