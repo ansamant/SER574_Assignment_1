@@ -1,0 +1,137 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{8}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Anton~Viktorov and Puntikov}{Anton~Viktorov
+  and Puntikov}{2007}]%
+        {Jeff}
+\bibfield{author}{\bibinfo{person}{Jeff~Sutherland Anton~Viktorov, Jack~Blount}
+  {and} \bibinfo{person}{Nikolai Puntikov}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Distributed Scrum: Agile Project Management with
+  Outsourced Development Teams}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the 40th Hawaii International
+  Conference on System Sciences - 2007}} \bibinfo{volume}{1},
+  \bibinfo{number}{1} (\bibinfo{year}{2007}), \bibinfo{pages}{10}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Dingsoyr and Moe}{Dingsoyr and Moe}{2014}]%
+        {Dingsoyr}
+\bibfield{author}{\bibinfo{person}{Torgeir Dingsoyr} {and}
+  \bibinfo{person}{Nils~Brede Moe}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Towards Principles of Large-Scale Agile
+  Development: A Summary of the workshop at XP2014 and a revised research
+  agenda}.
+\newblock \bibinfo{journal}{\emph{Research Paper}} \bibinfo{volume}{1},
+  \bibinfo{number}{1} (\bibinfo{year}{2014}), \bibinfo{pages}{6}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Dorairaj and Noble}{Dorairaj and
+  Noble}{2013}]%
+        {Siva13}
+\bibfield{author}{\bibinfo{person}{Siva Dorairaj} {and} \bibinfo{person}{James
+  Noble}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Agile Software Development with Distributed Teams
+  Agility, Distribution and Trust}.
+\newblock \bibinfo{journal}{\emph{IEEE Conference}} \bibinfo{volume}{6},
+  \bibinfo{number}{5} (\bibinfo{year}{2013}), \bibinfo{pages}{13}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Finn Olav~Bjornson and Dingsoyr}{Finn
+  Olav~Bjornson and Dingsoyr}{2018}]%
+        {Bjornson}
+\bibfield{author}{\bibinfo{person}{Christoph Johann~Stettina Finn
+  Olav~Bjornson, Julia~Wijnmaalen} {and} \bibinfo{person}{Torgeir Dingsoyr}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Inter-team Coordination in Large-Scale Agile
+  Development: A Case Study of Three Enabling Mechanisms}.
+\newblock \bibinfo{journal}{\emph{publication 325188087}} \bibinfo{volume}{1},
+  \bibinfo{number}{1} (\bibinfo{year}{2018}), \bibinfo{pages}{16}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gautam~Ghosh}{Gautam~Ghosh}{2004}]%
+        {Gautam17}
+\bibfield{author}{\bibinfo{person}{Oystein~Gutu Gautam~Ghosh}.}
+  \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{Agile, Multidisciplinary Teamwork}.
+\newblock \bibinfo{journal}{\emph{Agile Business Conference}}
+  \bibinfo{volume}{5}, \bibinfo{number}{4} (\bibinfo{year}{2004}),
+  \bibinfo{pages}{10}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Moe, Dingsoyr, and Dybaa}{Moe
+  et~al\mbox{.}}{2010}]%
+        {Moe}
+\bibfield{author}{\bibinfo{person}{Nils~Brede Moe}, \bibinfo{person}{Torgeir
+  Dingsoyr}, {and} \bibinfo{person}{Tore Dybaa}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{A teamwork model for understanding an agile team: A
+  case study of a Scrum project}.
+\newblock \bibinfo{journal}{\emph{Elsevier B.V.10.1016/j.infsof.2009.11.004}}
+  \bibinfo{volume}{52} (\bibinfo{date}{5} \bibinfo{year}{2010}),
+  \bibinfo{pages}{480--491}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Robert L.~Nord and Krutchen}{Robert L.~Nord
+  and Krutchen}{2014}]%
+        {Nord}
+\bibfield{author}{\bibinfo{person}{Ipek~Ozkaya Robert L.~Nord} {and}
+  \bibinfo{person}{Philippe Krutchen}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Agile in Distress: Architecture to the Rescue}.
+\newblock \bibinfo{journal}{\emph{Conference Paper 2014021001446847}}
+  \bibinfo{volume}{1}, \bibinfo{number}{1} (\bibinfo{year}{2014}),
+  \bibinfo{pages}{15}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Sommervile}{Sommervile}{2009}]%
+        {Somerville}
+\bibfield{author}{\bibinfo{person}{Ian Sommervile}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Software Engineering} (\bibinfo{edition}{9}
+  ed.)}.
+\newblock \bibinfo{publisher}{Addison-Wesley}, \bibinfo{address}{4}.
+\newblock
+
+
+\end{thebibliography}
