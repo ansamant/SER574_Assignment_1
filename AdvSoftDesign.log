@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  3 FEB 2019 14:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  3 FEB 2019 14:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1094,9 +1094,6 @@ Package hyperref Warning: Option `pdflang' has already been used,
 Package hyperref Warning: Option `pdfdisplaydoctitle' has already been used,
 (hyperref)                setting the option has no effect on input line 32.
 
-
-Package natbib Warning: Citation `Jeff|' on page 1 undefined on input line 39.
-
 Excluding 'comment' comment.
 Underfull \hbox (badness 10000) in paragraph at lines 60--64
 
@@ -1108,11 +1105,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1.1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-(./AdvSoftDesign.bbl)
-
-Package natbib Warning: There were undefined citations.
-
-[2.2]
+(./AdvSoftDesign.bbl) [2.2]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
  (./AdvSoftDesign.aux)
@@ -1122,13 +1115,13 @@ Package rerunfilecheck Info: File `AdvSoftDesign.out' has not changed.
 (rerunfilecheck)             Checksum: ACBE4E71B98C50327021A09915DDEB70;1026.
  ) 
 Here is how much of TeX's memory you used:
- 18078 strings out of 492649
- 271704 string characters out of 6129622
+ 18081 strings out of 492649
+ 271776 string characters out of 6129622
  394083 words of memory out of 5000000
  21253 multiletter control sequences out of 15000+600000
- 123316 words of font info for 230 fonts, out of 8000000 for 9000
+ 123589 words of font info for 232 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,11n,94p,1238b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,94p,1240b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc
 }{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{
@@ -1138,10 +1131,10 @@ usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb
 .pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLibert
 ineTB.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinL
 ibertineTI.pfb>
-Output written on AdvSoftDesign.pdf (2 pages, 300216 bytes).
+Output written on AdvSoftDesign.pdf (2 pages, 300043 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
+ 112 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
  19 named destinations out of 1000 (max. 500000)
  43597 words of extra memory for PDF output out of 51595 (max. 10000000)
 
